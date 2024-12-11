@@ -9,55 +9,121 @@ Symbol
 Object
 */
 
-// вывести в консоль
-// console.log("hello world!"); // String
+// <> = == === >= <=  &&
 
-// let admin = "Muhammad";
-// let age = 19;
+/* задание номер 1
+let num = prompt("Введите число:");
 
-// console.log(admin, age);
-
-// let a = 30; // 40
-// let b = 10; // 30
-
-// a = a + b;
-// b = a - b;
-// a = a - b;
-
-// console.log("a:", a, "b:", b);
-
-//Какой тип данных нужно использовать, чтобы задать дату формата 28.02.1999?
-// let date = "28.02.1999";
-// Нужен тип данных string/строка
-// console.log(date);
-
-// Какой тип данных нужен для сохранения числа ПИ 3.14?
-// let pi = 3.14;
-// console.log(pi);
-// Нужен тип данных number/строка
-
-// Создать константу с любым значением и попытаться изменить это значение. Выяснить что в итоге получится.
-// const password = "helloWorld!";
-// password = "byeWorld!";
-// console.log(password);
-// Изменить значение нельзя, будет ошибка
-
-/*
- Создать переменные name, address, phone в которых с помощью prompt() будет храниться значения имени, адреса и номер телефона. 
- Вывести в консоль текст “Студент . Адрес: , Номер телефона: _” где вместо пропусков будут соответствующие переменные. 
+if (num % 2 === 0) {
+  console.log(`Число ${num} чётное`);
+} else {
+  console.log(`Число ${num} нечётное`);
+}
 */
 
-// let name = prompt("Введите ваше имя:");
-// let address = prompt("Введите ваш адрес:");
-// let phone = prompt("Введите ваш номер телефона:");
+/*
+задание номер 2
 
-// console.log(`My name: ${name}, My adress: ${address}, My namber phone: ${phone}`);
-// готово
+let num2 = prompt("Введите второе число:");
+let num3 = prompt("Введите третье число:");
+let num1 = prompt("Введите первое число:");
 
-// Программа чтобы узнать сколько долларов можно купить на количество твоих рублей
-// let myRubles = 20000;
-// let dollarsRub = 103.38;
+let maxNum;
 
-// let dollars = myRubles / dollarsRub;
-// console.log(`На ${myRubles} рублей можно купить ${dollars}`);
-// готово
+if (num1 >= num2 && num1 >= num3) {
+  maxNum = num1;
+} else if (num2 >= num1 && num2 >= num3) {
+  maxNum = num2;
+} else {
+  maxNum = num3;
+}
+
+console.log(`Максимальное число ${maxNum}`);
+*/
+
+/*
+задание номер 3
+const myConst = 15;
+if (myConst < 10) {
+  console.log("myConst меньше 10");
+} else {
+  console.log("myConst не меньше 10");
+}
+*/
+
+/*
+задание номер 4
+let x = 110 > 71 ? console.log("x больше, чем y") : console.log("x не больше, чем y");
+*/
+
+// примеры с урока
+// console.log("start");
+
+// if (3 < 4) {
+//   console.log("middle");
+// } else if (3 > 2) {
+//   console.log("success");
+// } else {
+//   console.log("error");
+// }
+
+//==================================================//
+
+// let world = "lorem";
+
+// if (world == "ipsum") {
+//   console.log("middle");
+// } else if (world == "lorem") {
+//   console.log("success");
+// } else {
+//   console.log("error");
+// }
+//==================================================//
+
+// let names = "maga";
+// let password = "1234";
+
+// let nameUser = prompt("Введите ваше имя:");
+// let passwordUser = prompt("Введите ваш пароль:");
+
+// if (names == nameUser) {
+//   if (password == passwordUser) {
+//     console.log("Вход разрешен");
+//   } else {
+//     console.log("Пароль нийс яцун");
+//   }
+// } else {
+//   console.log("Вход запрешен");
+// }
+
+//==================================================//
+// let names = "maga";
+// let password = "1234";
+
+// let nameUser = prompt("Введите ваше имя:");
+// let passwordUser = prompt("Введите ваш пароль:");
+
+// if (names == nameUser && password == passwordUser) {
+//   console.log("Вход разрешен");
+// } else {
+//   console.log("Вход запрешен");
+// }
+//==================================================//
+
+// let x = "html";
+// switch (x) {
+//   case "html":
+//     console.log("html");
+//     break;
+//   case "css":
+//     console.log("css");
+//     break;
+//   case "js":
+//     console.log("js");
+//     break;
+//   default:
+//     console.log("default");
+// }
+//==================================================//
+
+// let a = 5 === "5" ? console.log("success") : console.log("error");
