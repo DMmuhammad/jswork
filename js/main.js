@@ -11,119 +11,79 @@ Object
 
 // <> = == === >= <=  &&
 
-/* задание номер 1
-let num = prompt("Введите число:");
-
-if (num % 2 === 0) {
-  console.log(`Число ${num} чётное`);
-} else {
-  console.log(`Число ${num} нечётное`);
-}
-*/
-
-/*
-задание номер 2
-
-let num2 = prompt("Введите второе число:");
-let num3 = prompt("Введите третье число:");
-let num1 = prompt("Введите первое число:");
-
-let maxNum;
-
-if (num1 >= num2 && num1 >= num3) {
-  maxNum = num1;
-} else if (num2 >= num1 && num2 >= num3) {
-  maxNum = num2;
-} else {
-  maxNum = num3;
-}
-
-console.log(`Максимальное число ${maxNum}`);
-*/
-
-/*
-задание номер 3
-const myConst = 15;
-if (myConst < 10) {
-  console.log("myConst меньше 10");
-} else {
-  console.log("myConst не меньше 10");
-}
-*/
-
-/*
-задание номер 4
-let x = 110 > 71 ? console.log("x больше, чем y") : console.log("x не больше, чем y");
-*/
-
 // примеры с урока
-// console.log("start");
 
-// if (3 < 4) {
-//   console.log("middle");
-// } else if (3 > 2) {
-//   console.log("success");
-// } else {
-//   console.log("error");
-// }
+/*
+function firstFn(x) {
+  console.log(x * x);
+}
+firstFn(2);
+firstFn(3);
+*/
 
-//==================================================//
+/*
+function usdt(rub, dollar) {
+  console.log(rub / dollar);
+}
+usdt(10000, 103);
+*/
 
-// let world = "lorem";
+/*
+const nextFunction = function (a) {
+  console.log(a);
+};
+nextFunction(2);
+*/
 
-// if (world == "ipsum") {
-//   console.log("middle");
-// } else if (world == "lorem") {
-//   console.log("success");
-// } else {
-//   console.log("error");
-// }
-//==================================================//
+/*
+const arrowFun = (x) => {
+  if (x > 5) {
+    return "yes";
+  } else {
+    return "no";
+  }
+};
+console.log(arrowFun(22));
+*/
+// домашка дон
 
-// let names = "maga";
-// let password = "1234";
+// задание 1
+/*
+function checkConst(num) {
+  if (num < 10) {
+    console.log("Константа меньше 10");
+  } else {
+    console.log("Константа не меньше 10");
+  }
+}
+checkConst(2);
+*/
 
-// let nameUser = prompt("Введите ваше имя:");
-// let passwordUser = prompt("Введите ваш пароль:");
+// задание 2
+/*
+function helloFun() {
+  return alert("hello world");
+}
+helloFun();
+*/
 
-// if (names == nameUser) {
-//   if (password == passwordUser) {
-//     console.log("Вход разрешен");
-//   } else {
-//     console.log("Пароль нийс яцун");
-//   }
-// } else {
-//   console.log("Вход запрешен");
-// }
+// задание 3
+/*
+function printJavaScript() {
+  console.log("JavaScript");
+}
+printJavaScript();
+*/
 
-//==================================================//
-// let names = "maga";
-// let password = "1234";
-
-// let nameUser = prompt("Введите ваше имя:");
-// let passwordUser = prompt("Введите ваш пароль:");
-
-// if (names == nameUser && password == passwordUser) {
-//   console.log("Вход разрешен");
-// } else {
-//   console.log("Вход запрешен");
-// }
-//==================================================//
-
-// let x = "html";
-// switch (x) {
-//   case "html":
-//     console.log("html");
-//     break;
-//   case "css":
-//     console.log("css");
-//     break;
-//   case "js":
-//     console.log("js");
-//     break;
-//   default:
-//     console.log("default");
-// }
-//==================================================//
-
-// let a = 5 === "5" ? console.log("success") : console.log("error");
+// задание 4
+/*
+let text = "Parkour";
+function myFun() {
+  if (text == "lorem") {
+    console.log("У вас ошибка в тексте");
+  } else {
+    console.log(`Содержимое переменной: ${text}`);
+  }
+}
+myFun();
+*/
