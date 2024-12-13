@@ -44,11 +44,10 @@ Object
 // console.log(getMoney(399));
 
 // задание 7
-// function printNum(number) {
-//   let numberBig = number * number;
-//   console.log(numberBig);
-// }
-// printNum(8);
+function printNum(number) {
+  console.log(number * number);
+}
+printNum(8);
 
 // задание 8
 // function printNumber(age, number, num, lit) {
@@ -63,16 +62,16 @@ Object
 // console.log(discriminant(10, 50, 10));
 
 // задание 10
-function progressNum(num1, num2) {
-  if (num1 % 2 === 0 && num2 % 2 === 0) {
-    return num1 * num2;
-  } else if (num1 % 2 !== 0 && num2 % 2 !== 0) {
-    return num1 + num2;
-  } else {
-    return num1 % 2 !== 0 ? num1 : num2;
-  }
-}
-console.log(progressNum(2, 4));
-console.log(progressNum(3, 5));
-console.log(progressNum(2, 3));
-console.log(progressNum(4, 7));
+// function progressNum(num1, num2) {
+//   if (num1 % 2 === 0 && num2 % 2 === 0) {
+//     return num1 * num2;
+//   } else if (num1 % 2 !== 0 && num2 % 2 !== 0) {
+//     return num1 + num2;
+//   } else {
+//     return num1 % 2 !== 0 ? num1 : num2;
+//   }
+// }
+// console.log(progressNum(2, 4));
+// console.log(progressNum(3, 5));
+// console.log(progressNum(2, 3));
+// console.log(progressNum(4, 7));
