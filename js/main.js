@@ -11,79 +11,68 @@ Object
 
 // <> = == === >= <=  &&
 
-// примеры с урока
-
-/*
-function firstFn(x) {
-  console.log(x * x);
-}
-firstFn(2);
-firstFn(3);
-*/
-
-/*
-function usdt(rub, dollar) {
-  console.log(rub / dollar);
-}
-usdt(10000, 103);
-*/
-
-/*
-const nextFunction = function (a) {
-  console.log(a);
-};
-nextFunction(2);
-*/
-
-/*
-const arrowFun = (x) => {
-  if (x > 5) {
-    return "yes";
-  } else {
-    return "no";
-  }
-};
-console.log(arrowFun(22));
-*/
-// домашка дон
-
+// практика
 // задание 1
-/*
-function checkConst(num) {
-  if (num < 10) {
-    console.log("Константа меньше 10");
-  } else {
-    console.log("Константа не меньше 10");
-  }
-}
-checkConst(2);
-*/
+// let myName = "myhammad"; // string
 
 // задание 2
-/*
-function helloFun() {
-  return alert("hello world");
-}
-helloFun();
-*/
+// const age = 19; // string
 
 // задание 3
-/*
-function printJavaScript() {
-  console.log("JavaScript");
-}
-printJavaScript();
-*/
+// if (age < 15) {
+//   console.log("доступ запрещен");
+// } else {
+//   console.log(`hello ${myName}`);
+// }
 
 // задание 4
-/*
-let text = "Parkour";
-function myFun() {
-  if (text == "lorem") {
-    console.log("У вас ошибка в тексте");
+// function vievMoney() {
+//   console.log("вот вам 10$");
+// }
+// vievMoney();
+
+// задание 5
+// function getMoney() {
+//   return "Вот Вам 10$";
+// }
+// console.log(getMoney());
+
+// задание 6
+// function getMoney(cash) {
+//   return `вот вам ${cash}$`;
+// }
+// console.log(getMoney(399));
+
+// задание 7
+// function printNum(number) {
+//   let numberBig = number * number;
+//   console.log(numberBig);
+// }
+// printNum(8);
+
+// задание 8
+// function printNumber(age, number, num, lit) {
+//   console.log(Math.max(age, number, num, lit));
+// }
+// printNumber(5, 1011, 432, 4);
+
+// задание 9
+// function discriminant(a, b, c) {
+//   return b * b - 4 * a * c;
+// }
+// console.log(discriminant(10, 50, 10));
+
+// задание 10
+function progressNum(num1, num2) {
+  if (num1 % 2 === 0 && num2 % 2 === 0) {
+    return num1 * num2;
+  } else if (num1 % 2 !== 0 && num2 % 2 !== 0) {
+    return num1 + num2;
   } else {
-    console.log(`Содержимое переменной: ${text}`);
+    return num1 % 2 !== 0 ? num1 : num2;
   }
 }
-myFun();
-*/
+console.log(progressNum(2, 4));
+console.log(progressNum(3, 5));
+console.log(progressNum(2, 3));
+console.log(progressNum(4, 7));
