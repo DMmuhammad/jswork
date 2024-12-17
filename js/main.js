@@ -11,67 +11,45 @@ Object
 
 // <> = == === >= <=  &&
 
-// практика
-// задание 1
-// let myName = "myhammad"; // string
+// const man = {
+//   firstName: "Muhammad",
+//   lastName: "Dadaev",
+//   age: 19,
+//   height: 175,
+//   userName: "MgFront",
+//   userPassword: 12345,
+//   balace: 1000,
+// };
 
-// задание 2
-// const age = 19; // string
+// man.adress = {
+//   street: "ул. Маяковсокого",
+//   city: "Грозный",
+//   country: "Чечня",
+// };
 
-// задание 3
-// if (age < 15) {
-//   console.log("доступ запрещен");
+// const password = prompt("Введите ваш пароль:");
+// if (password == man.userPassword) {
+//   console.log(`Добро пожаловать, ${man.firstName} ${man.lastName}. Ваш логин:${man.userName}`);
 // } else {
-//   console.log(`hello ${myName}`);
+//   console.log(`Указанный пароль "${password}" не верен. Попробуйте еще раз.`);
 // }
 
-// задание 4
-// function vievMoney() {
-//   console.log("вот вам 10$");
+// for (let num = 0; num < 3; num++) {
+//   console.log(`ваше число: ${num}`);
 // }
-// vievMoney();
 
-// задание 5
-// function getMoney() {
-//   return "Вот Вам 10$";
+// let num = 0;
+// while (num < 3) {
+//   console.log(`ваше число: ${num}`);
+//   num++;
 // }
-// console.log(getMoney());
 
-// задание 6
-// function getMoney(cash) {
-//   return `вот вам ${cash}$`;
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
 // }
-// console.log(getMoney(399));
 
-// задание 7
-function printNum(number) {
-  console.log(number * number);
-}
-printNum(8);
-
-// задание 8
-// function printNumber(age, number, num, lit) {
-//   console.log(Math.max(age, number, num, lit));
+// let i = 1;
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
 // }
-// printNumber(5, 1011, 432, 4);
-
-// задание 9
-// function discriminant(a, b, c) {
-//   return b * b - 4 * a * c;
-// }
-// console.log(discriminant(10, 50, 10));
-
-// задание 10
-// function progressNum(num1, num2) {
-//   if (num1 % 2 === 0 && num2 % 2 === 0) {
-//     return num1 * num2;
-//   } else if (num1 % 2 !== 0 && num2 % 2 !== 0) {
-//     return num1 + num2;
-//   } else {
-//     return num1 % 2 !== 0 ? num1 : num2;
-//   }
-// }
-// console.log(progressNum(2, 4));
-// console.log(progressNum(3, 5));
-// console.log(progressNum(2, 3));
-// console.log(progressNum(4, 7));
