@@ -11,45 +11,31 @@ Object
 
 // <> = == === >= <=  &&
 
-// const man = {
-//   firstName: "Muhammad",
-//   lastName: "Dadaev",
-//   age: 19,
-//   height: 175,
-//   userName: "MgFront",
-//   userPassword: 12345,
-//   balace: 1000,
-// };
+// let a = ["lorem", 123, true, "ipsum"];
+// console.log(a);
+// console.log(a.length); // Вывод длины массива
+// console.log("Первый элемент:", a[0]); // Вывод первого элемента
+// console.log("Последний элемент:", a[a.length - 1]); // Вывод последнего элемента
+// console.log(a.at(-1)); // Вывод последнего элемента второй вариант
 
-// man.adress = {
-//   street: "ул. Маяковсокого",
-//   city: "Грозный",
-//   country: "Чечня",
-// };
+// a.push("Ali");
+// a.push("Parkour");
+// a.push(95);
 
-// const password = prompt("Введите ваш пароль:");
-// if (password == man.userPassword) {
-//   console.log(`Добро пожаловать, ${man.firstName} ${man.lastName}. Ваш логин:${man.userName}`);
-// } else {
-//   console.log(`Указанный пароль "${password}" не верен. Попробуйте еще раз.`);
-// }
+// let myArr = [];
 
-// for (let num = 0; num < 3; num++) {
-//   console.log(`ваше число: ${num}`);
-// }
+// myArr.push("Alishan");
+// myArr.push("Maga");
+// myArr.push(123);
+// myArr.push(true);
+// myArr.push(false);
 
-// let num = 0;
-// while (num < 3) {
-//   console.log(`ваше число: ${num}`);
-//   num++;
-// }
+// myArr.shift();
+// myArr.pop();
+// myArr.pop();
 
-// for (let i = 1; i <= 10; i++) {
-//   console.log(i);
-// }
+// console.log(myArr);
 
-// let i = 1;
-// while (i <= 10) {
-//   console.log(i);
-//   i++;
-// }
+// let number = [1, 3, 5, 7, 9];
+// let number2 = number.map((num) => num + 1);
+// console.log(number2);
