@@ -18,44 +18,105 @@
 
 // =================================================== //
 
-// const numbers = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100];
-// numbers.forEach((numbers) => {
-//   if (numbers % 2 !== 0) {
-//     console.log(numbers);
-//   }
+// const cities = [
+//   {name: "Москва", population: 12506468},
+//   {name: "Санкт-Петербург", population: 5351935},
+//   {name: "Новосибирск", population: 1612833},
+//   {name: "Калиниград", population: 482443},
+//   {name: "Калуга", population: 336726},
+// ];
+
+// cities.unshift({name: "Мекка", population: 2427924});
+// cities.push({name: "Медина", population: 1100181});
+
+// cities.forEach((city) => {
+//   console.log(`Город: ${city.name}, население: ${city.population}`);
 // });
 
-// const elements = ["lorem ipsum", "javascript", "php", "css", "react", "git", "html", "mysql"];
-// const filterElements = elements.filter(elements => elements.length <= 4);
-// console.log(filterElements);
+// const bigNumCity = cities.filter((city) => city.population > 1000000);
+// console.log(bigNumCity);
 
-// const arr = [1, -3, 5, 6, -7, 8, 9, -11];
-// const minusArr = arr.filter((arr) => arr <= 0);
-// console.log(minusArr);
+// const bigPopulation = cities.map((city) => {
+//   return {
+//     name: city.name,
+//     population: Math.floor(city.population * 1, 5),
+//   };
+// });
 
-// const arr = [5, 6, 7, 8, 9];
-// const bigArr = arr.map((arr) => arr * arr);
-// console.log(bigArr);
+// console.log("Население городов после увеличения:", bigPopulation);
 
-// const array = [
-//   {a: 10, b: 5},
-//   {a: 20, b: 22},
-//   {a: 131, b: 55},
+// const newPopulation = bigPopulation.reduce((sum, city) => sum + city.population, 0);
+// console.log("Общее население после повышения:", newPopulation);
+
+// const newArray = [
+//   {
+//     userId: 1,
+//     id: 1,
+//     title: "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+//     body: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+//   },
+//   {
+//     userId: 1,
+//     id: 2,
+//     title: "qui est esse",
+//     body: "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
+//   },
+//   {
+//     userId: 1,
+//     id: 3,
+//     title: "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+//     body: "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
+//   },
+//   {
+//     userId: 1,
+//     id: 4,
+//     title: "eum et est occaecati",
+//     body: "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
+//   },
+//   {
+//     userId: 1,
+//     id: 5,
+//     title: "nesciunt quas odio",
+//     body: "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
+//   },
+//   {
+//     userId: 1,
+//     id: 6,
+//     title: "dolorem eum magni eos aperiam quia",
+//     body: "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae",
+//   },
+//   {
+//     userId: 1,
+//     id: 7,
+//     title: "magnam facilis autem",
+//     body: "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas",
+//   },
+//   {
+//     userId: 1,
+//     id: 8,
+//     title: "dolorem dolore est ipsam",
+//     body: "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae",
+//   },
+//   {
+//     userId: 1,
+//     id: 9,
+//     title: "nesciunt iure omnis dolorem tempora et accusantium",
+//     body: "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas",
+//   },
+//   {
+//     userId: 1,
+//     id: 10,
+//     title: "optio molestias id quia eum",
+//     body: "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error",
+//   },
 // ];
-// const result = array.map((array) => array.a + array.b);
-// console.log(result);
 
-// const array = [-13, 0, 12, 1662, -0.32, -102, -2];
-// const mixArray = array.filter((num) => num <= 0).reduce((sum, num) => sum + num, 0);
-// console.log(mixArray);
-
-// const array = [
-//   {x: 10, y: "lorem"},
-//   {x: 21, y: "lorem"},
-//   {x: -17, y: "lorem"},
-//   {x: 156, y: "lorem"},
-// ];
-
-// const sum = array.reduce((sum, obj) => sum + obj.x, 0);
-
-// console.log(sum);
+// const filterArray = newArray
+//   .filter((item) => item.id > 4)
+//   .map((item) => {
+//     return {
+//       title: "AG",
+//       body: item.body,
+//     };
+//   });
+// console.log(filterArray);
